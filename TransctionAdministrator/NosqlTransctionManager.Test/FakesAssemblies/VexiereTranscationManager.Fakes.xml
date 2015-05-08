@@ -1,0 +1,1211 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VexiereTranscationManager.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:NosqlTransactionManager.Fakes.ShimESUserResource">
+            <summary>Shim type of NosqlTransactionManager.ESUserResource</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimESUserResource.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimESUserResource.#ctor(NosqlTransactionManager.ESUserResource)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimESUserResource.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimESUserResource.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimESUserResource.Bind(NosqlTransactionManager.IWriteResource{NosqlTransactionManager.User})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimESUserResource.Bind(NosqlTransactionManager.ResourceManager.IReadResource{NosqlTransactionManager.User})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.Constructor">
+            <summary>Sets the shim of ESUserResource.ESUserResource()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.CreateUser">
+            <summary>Sets the shim of ESUserResource.Create(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.DeleteUser">
+            <summary>Sets the shim of ESUserResource.Delete(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.GetByIdInt64">
+            <summary>Sets the shim of ESUserResource.GetById(Int64 id)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.GetIdUser">
+            <summary>Sets the shim of ESUserResource.GetId(User t)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.ParticipantNameGet">
+            <summary>Sets the shim of ESUserResource.get_ParticipantName()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.ThrowException">
+            <summary>Sets the shim of ESUserResource.ThrowException()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.UpdateUser">
+            <summary>Sets the shim of ESUserResource.Update(User user)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimESUserResource.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.AllInstances.CreateUser">
+            <summary>Sets the shim of ESUserResource.Create(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.AllInstances.DeleteUser">
+            <summary>Sets the shim of ESUserResource.Delete(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.AllInstances.GetByIdInt64">
+            <summary>Sets the shim of ESUserResource.GetById(Int64 id)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.AllInstances.GetIdUser">
+            <summary>Sets the shim of ESUserResource.GetId(User t)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.AllInstances.ParticipantNameGet">
+            <summary>Sets the shim of ESUserResource.get_ParticipantName()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimESUserResource.AllInstances.UpdateUser">
+            <summary>Sets the shim of ESUserResource.Update(User user)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimEntityLockException">
+            <summary>Shim type of NosqlTransactionManager.EntityLockException</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimEntityLockException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimEntityLockException.#ctor(NosqlTransactionManager.EntityLockException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimEntityLockException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimEntityLockException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimEntityLockException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimEntityLockException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimEntityLockException.ConstructorString">
+            <summary>Sets the shim of EntityLockException.EntityLockException(String p)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimEntityLockException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimLockManager">
+            <summary>Shim type of NosqlTransactionManager.LockManager</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimLockManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimLockManager.#ctor(NosqlTransactionManager.LockManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimLockManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimLockManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimLockManager.Bind(NosqlTransactionManager.ILockManager)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimLockManager.AcquireLockInt64String">
+            <summary>Sets the shim of LockManager.AcquireLock(Int64 id, String participantName)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimLockManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimLockManager.Constructor">
+            <summary>Sets the shim of LockManager.LockManager()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimLockManager.GetLockKeyInt64String">
+            <summary>Sets the shim of LockManager.GetLockKey(Int64 id, String participantName)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimLockManager.ReleaseLockInt64String">
+            <summary>Sets the shim of LockManager.ReleaseLock(Int64 id, String participantName)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimLockManager.StaticConstructor">
+            <summary>Sets the shim of LockManager.LockManager()</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimLockManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimLockManager.AllInstances.AcquireLockInt64String">
+            <summary>Sets the shim of LockManager.AcquireLock(Int64 id, String participantName)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimLockManager.AllInstances.ReleaseLockInt64String">
+            <summary>Sets the shim of LockManager.ReleaseLock(Int64 id, String participantName)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimMongoUserResource">
+            <summary>Shim type of NosqlTransactionManager.MongoUserResource</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimMongoUserResource.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimMongoUserResource.#ctor(NosqlTransactionManager.MongoUserResource)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimMongoUserResource.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimMongoUserResource.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimMongoUserResource.Bind(NosqlTransactionManager.IWriteResource{NosqlTransactionManager.User})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimMongoUserResource.Bind(NosqlTransactionManager.ResourceManager.IReadResource{NosqlTransactionManager.User})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.Constructor">
+            <summary>Sets the shim of MongoUserResource.MongoUserResource()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.CreateUser">
+            <summary>Sets the shim of MongoUserResource.Create(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.DeleteUser">
+            <summary>Sets the shim of MongoUserResource.Delete(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.GetByIdInt64">
+            <summary>Sets the shim of MongoUserResource.GetById(Int64 id)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.GetIdUser">
+            <summary>Sets the shim of MongoUserResource.GetId(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.ParticipantNameGet">
+            <summary>Sets the shim of MongoUserResource.get_ParticipantName()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.StaticConstructor">
+            <summary>Sets the shim of MongoUserResource.MongoUserResource()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.UpdateUser">
+            <summary>Sets the shim of MongoUserResource.Update(User user)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimMongoUserResource.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.AllInstances.CreateUser">
+            <summary>Sets the shim of MongoUserResource.Create(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.AllInstances.DeleteUser">
+            <summary>Sets the shim of MongoUserResource.Delete(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.AllInstances.GetByIdInt64">
+            <summary>Sets the shim of MongoUserResource.GetById(Int64 id)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.AllInstances.GetIdUser">
+            <summary>Sets the shim of MongoUserResource.GetId(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.AllInstances.ParticipantNameGet">
+            <summary>Sets the shim of MongoUserResource.get_ParticipantName()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimMongoUserResource.AllInstances.UpdateUser">
+            <summary>Sets the shim of MongoUserResource.Update(User user)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1">
+            <summary>Shim type of NosqlTransactionManager.TransactionExecutor`1</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.#ctor(NosqlTransactionManager.TransactionExecutor{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.Bind(System.Transactions.IEnlistmentNotification)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.CommitCreateTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.CommitCreateTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.CommitEnlistment">
+            <summary>Sets the shim of TransactionExecutor`1.Commit(Enlistment enlistment)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.CommitUpdateOrDeleteTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.CommitUpdateOrDeleteTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.ConstructorInt64IWriteResourceOfT0IReadResourceOfT0ListOfTransactionLogException">
+            <summary>Sets the shim of TransactionExecutor`1.TransactionExecutor`1(Int64 transactionId, IWriteResource`1&lt;!0&gt; resource, IReadResource`1&lt;!0&gt; readResource, List`1&lt;TransactionLogException&gt; exceptionsList)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.CreateManyListOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.CreateMany(List`1&lt;!0&gt; s)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.CreateT0">
+            <summary>Sets the shim of TransactionExecutor`1.Create(!0 t)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.DeleteManyListOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.DeleteMany(List`1&lt;!0&gt; s)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.DeleteT0">
+            <summary>Sets the shim of TransactionExecutor`1.Delete(!0 t)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.FillTransactionLogT0OperationType">
+            <summary>Sets the shim of TransactionExecutor`1.FillTransactionLog(!0 t, OperationType operationType)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.InDoubtEnlistment">
+            <summary>Sets the shim of TransactionExecutor`1.InDoubt(Enlistment enlistment)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.PreparePreparingEnlistment">
+            <summary>Sets the shim of TransactionExecutor`1.Prepare(PreparingEnlistment preparingEnlistment)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.PreparedCreateTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.PreparedCreateTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.PreparedDeleteTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.PreparedDeleteTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.PreparedUpdateTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.PreparedUpdateTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.RollbackCreateTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.RollbackCreateTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.RollbackDeleteTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.RollbackDeleteTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.RollbackEnlistment">
+            <summary>Sets the shim of TransactionExecutor`1.Rollback(Enlistment enlistment)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.RollbackReadyToCommitTransactions">
+            <summary>Sets the shim of TransactionExecutor`1.RollbackReadyToCommitTransactions()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.RollbackUpdateTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.RollbackUpdateTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.ThrowExceptionString">
+            <summary>Sets the shim of TransactionExecutor`1.ThrowException(String participantName)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.UpdateManyListOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.UpdateMany(List`1&lt;!0&gt; s)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.UpdateT0">
+            <summary>Sets the shim of TransactionExecutor`1.Update(!0 t)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.UpdateTransactionLogTransactionLogOfT0T0">
+            <summary>Sets the shim of TransactionExecutor`1.UpdateTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog, !0 beforeEntity)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.CommitCreateTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.CommitCreateTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.CommitEnlistment">
+            <summary>Sets the shim of TransactionExecutor`1.Commit(Enlistment enlistment)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.CommitUpdateOrDeleteTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.CommitUpdateOrDeleteTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.CreateManyListOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.CreateMany(List`1&lt;!0&gt; s)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.CreateT0">
+            <summary>Sets the shim of TransactionExecutor`1.Create(!0 t)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.DeleteManyListOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.DeleteMany(List`1&lt;!0&gt; s)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.DeleteT0">
+            <summary>Sets the shim of TransactionExecutor`1.Delete(!0 t)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.FillTransactionLogT0OperationType">
+            <summary>Sets the shim of TransactionExecutor`1.FillTransactionLog(!0 t, OperationType operationType)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.InDoubtEnlistment">
+            <summary>Sets the shim of TransactionExecutor`1.InDoubt(Enlistment enlistment)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.PreparePreparingEnlistment">
+            <summary>Sets the shim of TransactionExecutor`1.Prepare(PreparingEnlistment preparingEnlistment)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.PreparedCreateTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.PreparedCreateTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.PreparedDeleteTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.PreparedDeleteTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.PreparedUpdateTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.PreparedUpdateTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.RollbackCreateTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.RollbackCreateTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.RollbackDeleteTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.RollbackDeleteTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.RollbackEnlistment">
+            <summary>Sets the shim of TransactionExecutor`1.Rollback(Enlistment enlistment)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.RollbackReadyToCommitTransactions">
+            <summary>Sets the shim of TransactionExecutor`1.RollbackReadyToCommitTransactions()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.RollbackUpdateTransactionLogTransactionLogOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.RollbackUpdateTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.UpdateManyListOfT0">
+            <summary>Sets the shim of TransactionExecutor`1.UpdateMany(List`1&lt;!0&gt; s)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.UpdateT0">
+            <summary>Sets the shim of TransactionExecutor`1.Update(!0 t)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionExecutor`1.AllInstances.UpdateTransactionLogTransactionLogOfT0T0">
+            <summary>Sets the shim of TransactionExecutor`1.UpdateTransactionLog(TransactionLog`1&lt;!0&gt; transactionLog, !0 beforeEntity)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimTransactionLog`1">
+            <summary>Shim type of NosqlTransactionManager.TransactionLog`1</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionLog`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionLog`1.#ctor(NosqlTransactionManager.TransactionLog{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionLog`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionLog`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AfterEntityGet">
+            <summary>Sets the shim of TransactionLog`1.get_AfterEntity()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AfterEntitySetT0">
+            <summary>Sets the shim of TransactionLog`1.set_AfterEntity(!0 value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.BeforeEntityGet">
+            <summary>Sets the shim of TransactionLog`1.get_BeforeEntity()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.BeforeEntitySetT0">
+            <summary>Sets the shim of TransactionLog`1.set_BeforeEntity(!0 value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.Constructor">
+            <summary>Sets the shim of TransactionLog`1.TransactionLog`1()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.CreationTimeGet">
+            <summary>Sets the shim of TransactionLog`1.get_CreationTime()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.CreationTimeSetDateTime">
+            <summary>Sets the shim of TransactionLog`1.set_CreationTime(DateTime value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.ExpiryTimeGet">
+            <summary>Sets the shim of TransactionLog`1.get_ExpiryTime()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.ExpiryTimeSetDateTime">
+            <summary>Sets the shim of TransactionLog`1.set_ExpiryTime(DateTime value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.IdGet">
+            <summary>Sets the shim of TransactionLog`1.get_Id()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.IdSetInt64">
+            <summary>Sets the shim of TransactionLog`1.set_Id(Int64 value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.LockEntityIdGet">
+            <summary>Sets the shim of TransactionLog`1.get_LockEntityId()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.LockEntityIdSetInt64">
+            <summary>Sets the shim of TransactionLog`1.set_LockEntityId(Int64 value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.LockStatusGet">
+            <summary>Sets the shim of TransactionLog`1.get_LockStatus()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.LockStatusSetLockStatus">
+            <summary>Sets the shim of TransactionLog`1.set_LockStatus(LockStatus value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.OperationTypeGet">
+            <summary>Sets the shim of TransactionLog`1.get_OperationType()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.OperationTypeSetOperationType">
+            <summary>Sets the shim of TransactionLog`1.set_OperationType(OperationType value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.ParticipantGet">
+            <summary>Sets the shim of TransactionLog`1.get_Participant()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.ParticipantSetString">
+            <summary>Sets the shim of TransactionLog`1.set_Participant(String value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.StateGet">
+            <summary>Sets the shim of TransactionLog`1.get_State()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.StateSetTransactionLogState">
+            <summary>Sets the shim of TransactionLog`1.set_State(TransactionLogState value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.TransactionIdGet">
+            <summary>Sets the shim of TransactionLog`1.get_TransactionId()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.TransactionIdSetInt64">
+            <summary>Sets the shim of TransactionLog`1.set_TransactionId(Int64 value)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.AfterEntityGet">
+            <summary>Sets the shim of TransactionLog`1.get_AfterEntity()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.AfterEntitySetT0">
+            <summary>Sets the shim of TransactionLog`1.set_AfterEntity(!0 value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.BeforeEntityGet">
+            <summary>Sets the shim of TransactionLog`1.get_BeforeEntity()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.BeforeEntitySetT0">
+            <summary>Sets the shim of TransactionLog`1.set_BeforeEntity(!0 value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.CreationTimeGet">
+            <summary>Sets the shim of TransactionLog`1.get_CreationTime()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.CreationTimeSetDateTime">
+            <summary>Sets the shim of TransactionLog`1.set_CreationTime(DateTime value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.ExpiryTimeGet">
+            <summary>Sets the shim of TransactionLog`1.get_ExpiryTime()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.ExpiryTimeSetDateTime">
+            <summary>Sets the shim of TransactionLog`1.set_ExpiryTime(DateTime value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.IdGet">
+            <summary>Sets the shim of TransactionLog`1.get_Id()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.IdSetInt64">
+            <summary>Sets the shim of TransactionLog`1.set_Id(Int64 value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.LockEntityIdGet">
+            <summary>Sets the shim of TransactionLog`1.get_LockEntityId()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.LockEntityIdSetInt64">
+            <summary>Sets the shim of TransactionLog`1.set_LockEntityId(Int64 value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.LockStatusGet">
+            <summary>Sets the shim of TransactionLog`1.get_LockStatus()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.LockStatusSetLockStatus">
+            <summary>Sets the shim of TransactionLog`1.set_LockStatus(LockStatus value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.OperationTypeGet">
+            <summary>Sets the shim of TransactionLog`1.get_OperationType()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.OperationTypeSetOperationType">
+            <summary>Sets the shim of TransactionLog`1.set_OperationType(OperationType value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.ParticipantGet">
+            <summary>Sets the shim of TransactionLog`1.get_Participant()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.ParticipantSetString">
+            <summary>Sets the shim of TransactionLog`1.set_Participant(String value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.StateGet">
+            <summary>Sets the shim of TransactionLog`1.get_State()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.StateSetTransactionLogState">
+            <summary>Sets the shim of TransactionLog`1.set_State(TransactionLogState value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.TransactionIdGet">
+            <summary>Sets the shim of TransactionLog`1.get_TransactionId()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLog`1.AllInstances.TransactionIdSetInt64">
+            <summary>Sets the shim of TransactionLog`1.set_TransactionId(Int64 value)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimTransactionLogException">
+            <summary>Shim type of NosqlTransactionManager.TransactionLogException</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionLogException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionLogException.#ctor(NosqlTransactionManager.TransactionLogException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionLogException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionLogException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimTransactionLogException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLogException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLogException.ConstructorInt64Int64Exception">
+            <summary>Sets the shim of TransactionLogException.TransactionLogException(Int64 transactionLogId, Int64 transactionId, Exception e)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLogException.TransactionIdGet">
+            <summary>Sets the shim of TransactionLogException.get_TransactionId()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLogException.TransactionIdSetInt64">
+            <summary>Sets the shim of TransactionLogException.set_TransactionId(Int64 value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLogException.TransactionLogIdGet">
+            <summary>Sets the shim of TransactionLogException.get_TransactionLogId()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLogException.TransactionLogIdSetInt64">
+            <summary>Sets the shim of TransactionLogException.set_TransactionLogId(Int64 value)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimTransactionLogException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLogException.AllInstances.TransactionIdGet">
+            <summary>Sets the shim of TransactionLogException.get_TransactionId()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLogException.AllInstances.TransactionIdSetInt64">
+            <summary>Sets the shim of TransactionLogException.set_TransactionId(Int64 value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLogException.AllInstances.TransactionLogIdGet">
+            <summary>Sets the shim of TransactionLogException.get_TransactionLogId()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimTransactionLogException.AllInstances.TransactionLogIdSetInt64">
+            <summary>Sets the shim of TransactionLogException.set_TransactionLogId(Int64 value)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimUniqueIdGenerator">
+            <summary>Shim type of NosqlTransactionManager.UniqueIdGenerator</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimUniqueIdGenerator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimUniqueIdGenerator.#ctor(NosqlTransactionManager.UniqueIdGenerator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimUniqueIdGenerator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimUniqueIdGenerator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUniqueIdGenerator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUniqueIdGenerator.Constructor">
+            <summary>Sets the shim of UniqueIdGenerator.UniqueIdGenerator()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUniqueIdGenerator.GetIdGenerator">
+            <summary>Sets the shim of UniqueIdGenerator.GetIdGenerator()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUniqueIdGenerator.GetNextId">
+            <summary>Sets the shim of UniqueIdGenerator.GetNextId()</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimUniqueIdGenerator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimUser">
+            <summary>Shim type of NosqlTransactionManager.User</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimUser.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimUser.#ctor(NosqlTransactionManager.User)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimUser.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimUser.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.Constructor">
+            <summary>Sets the shim of User.User()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.FirstNameGet">
+            <summary>Sets the shim of User.get_FirstName()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.FirstNameSetString">
+            <summary>Sets the shim of User.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.IdGet">
+            <summary>Sets the shim of User.get_Id()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.IdSetInt64">
+            <summary>Sets the shim of User.set_Id(Int64 value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.LastNameGet">
+            <summary>Sets the shim of User.get_LastName()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.LastNameSetString">
+            <summary>Sets the shim of User.set_LastName(String value)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimUser.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.AllInstances.FirstNameGet">
+            <summary>Sets the shim of User.get_FirstName()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.AllInstances.FirstNameSetString">
+            <summary>Sets the shim of User.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.AllInstances.IdGet">
+            <summary>Sets the shim of User.get_Id()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.AllInstances.IdSetInt64">
+            <summary>Sets the shim of User.set_Id(Int64 value)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.AllInstances.LastNameGet">
+            <summary>Sets the shim of User.get_LastName()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUser.AllInstances.LastNameSetString">
+            <summary>Sets the shim of User.set_LastName(String value)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimUserService">
+            <summary>Shim type of NosqlTransactionManager.UserService</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimUserService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimUserService.#ctor(NosqlTransactionManager.UserService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimUserService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimUserService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUserService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUserService.Constructor">
+            <summary>Sets the shim of UserService.UserService()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUserService.CreateUser">
+            <summary>Sets the shim of UserService.Create(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUserService.DeleteUser">
+            <summary>Sets the shim of UserService.Delete(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUserService.SaveTransationInt64TransactionLogState">
+            <summary>Sets the shim of UserService.SaveTransation(Int64 transactionId, TransactionLogState transactionLogState)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUserService.UpdateUser">
+            <summary>Sets the shim of UserService.Update(User user)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimUserService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUserService.AllInstances.CreateUser">
+            <summary>Sets the shim of UserService.Create(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUserService.AllInstances.DeleteUser">
+            <summary>Sets the shim of UserService.Delete(User user)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimUserService.AllInstances.UpdateUser">
+            <summary>Sets the shim of UserService.Update(User user)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimVexiereConfiguration">
+            <summary>Shim type of NosqlTransactionManager.VexiereConfiguration</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimVexiereConfiguration.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimVexiereConfiguration.#ctor(NosqlTransactionManager.VexiereConfiguration)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimVexiereConfiguration.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.ShimVexiereConfiguration.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimVexiereConfiguration.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimVexiereConfiguration.Constructor">
+            <summary>Sets the shim of VexiereConfiguration.VexiereConfiguration()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimVexiereConfiguration.GetParticipantName">
+            <summary>Sets the shim of VexiereConfiguration.GetParticipantName()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.ShimVexiereConfiguration.StaticConstructor">
+            <summary>Sets the shim of VexiereConfiguration.VexiereConfiguration()</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.ShimVexiereConfiguration.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubESUserResource">
+            <summary>Stub type of NosqlTransactionManager.ESUserResource</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubESUserResource.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubESUserResource.InitializeStub">
+            <summary>Initializes a new instance of type StubESUserResource</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubESUserResource.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubESUserResource.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubESUserResource.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubEntityLockException">
+            <summary>Stub type of NosqlTransactionManager.EntityLockException</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubEntityLockException.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubEntityLockException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubEntityLockException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubEntityLockException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubEntityLockException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubEntityLockException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubEntityLockException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubEntityLockException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubEntityLockException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubEntityLockException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubEntityLockException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubEntityLockException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubEntityLockException.InitializeStub">
+            <summary>Initializes a new instance of type StubEntityLockException</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubEntityLockException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubEntityLockException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubEntityLockException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubEntityLockException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubEntityLockException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubEntityLockException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubEntityLockException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubEntityLockException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubEntityLockException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubEntityLockException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubEntityLockException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubEntityLockException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubEntityLockException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubEntityLockException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubILockManager">
+            <summary>Stub type of NosqlTransactionManager.ILockManager</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubILockManager.#ctor">
+            <summary>Initializes a new instance of type StubILockManager</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubILockManager.AcquireLockInt64String">
+            <summary>Sets the stub of ILockManager.AcquireLock(Int64 id, String participantName)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubILockManager.vtm::NosqlTransactionManager#ILockManager#AcquireLock(System.Int64,System.String)">
+            <summary>Sets the stub of ILockManager.AcquireLock(Int64 id, String participantName)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubILockManager.vtm::NosqlTransactionManager#ILockManager#ReleaseLock(System.Int64,System.String)">
+            <summary>Sets the stub of ILockManager.ReleaseLock(Int64 id, String participantName)</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubILockManager.ReleaseLockInt64String">
+            <summary>Sets the stub of ILockManager.ReleaseLock(Int64 id, String participantName)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubIWriteResource`1">
+            <summary>Stub type of NosqlTransactionManager.IWriteResource`1</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubIWriteResource`1.#ctor">
+            <summary>Initializes a new instance of type StubIWriteResource</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubIWriteResource`1.CreateT0">
+            <summary>Sets the stub of IWriteResource`1.Create(!0 t)</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubIWriteResource`1.DeleteT0">
+            <summary>Sets the stub of IWriteResource`1.Delete(!0 t)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubIWriteResource`1.vtm::NosqlTransactionManager#IWriteResource{T}#Create(`0)">
+            <summary>Sets the stub of IWriteResource`1.Create(!0 t)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubIWriteResource`1.vtm::NosqlTransactionManager#IWriteResource{T}#Delete(`0)">
+            <summary>Sets the stub of IWriteResource`1.Delete(!0 t)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubIWriteResource`1.vtm::NosqlTransactionManager#IWriteResource{T}#Update(`0)">
+            <summary>Sets the stub of IWriteResource`1.Update(!0 t)</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubIWriteResource`1.ParticipantNameGet">
+            <summary>Sets the stub of IWriteResource`1.get_ParticipantName()</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubIWriteResource`1.UpdateT0">
+            <summary>Sets the stub of IWriteResource`1.Update(!0 t)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubIWriteResource`1.vtm::NosqlTransactionManager#IWriteResource{T}#ParticipantName">
+            <summary>Sets the stub of IWriteResource`1.get_ParticipantName()</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubLockManager">
+            <summary>Stub type of NosqlTransactionManager.LockManager</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubLockManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubLockManager.InitializeStub">
+            <summary>Initializes a new instance of type StubLockManager</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubLockManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubLockManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubLockManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubMongoUserResource">
+            <summary>Stub type of NosqlTransactionManager.MongoUserResource</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubMongoUserResource.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubMongoUserResource.InitializeStub">
+            <summary>Initializes a new instance of type StubMongoUserResource</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubMongoUserResource.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubMongoUserResource.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubMongoUserResource.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubTransactionExecutor`1">
+            <summary>Stub type of NosqlTransactionManager.TransactionExecutor`1</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubTransactionExecutor`1.#ctor(System.Int64,NosqlTransactionManager.IWriteResource{`0},NosqlTransactionManager.ResourceManager.IReadResource{`0},System.Collections.Generic.List{NosqlTransactionManager.TransactionLogException})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubTransactionExecutor`1.InitializeStub">
+            <summary>Initializes a new instance of type StubTransactionExecutor</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionExecutor`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionExecutor`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionExecutor`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubTransactionLog`1">
+            <summary>Stub type of NosqlTransactionManager.TransactionLog`1</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubTransactionLog`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubTransactionLog`1.InitializeStub">
+            <summary>Initializes a new instance of type StubTransactionLog</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionLog`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionLog`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionLog`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubTransactionLogException">
+            <summary>Stub type of NosqlTransactionManager.TransactionLogException</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubTransactionLogException.#ctor(System.Int64,System.Int64,System.Exception)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubTransactionLogException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubTransactionLogException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubTransactionLogException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubTransactionLogException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubTransactionLogException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubTransactionLogException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubTransactionLogException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubTransactionLogException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubTransactionLogException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubTransactionLogException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubTransactionLogException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubTransactionLogException.InitializeStub">
+            <summary>Initializes a new instance of type StubTransactionLogException</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubTransactionLogException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubTransactionLogException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubTransactionLogException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubTransactionLogException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubTransactionLogException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.Fakes.StubTransactionLogException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionLogException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionLogException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionLogException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionLogException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionLogException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionLogException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionLogException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubTransactionLogException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubUniqueIdGenerator">
+            <summary>Stub type of NosqlTransactionManager.UniqueIdGenerator</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubUniqueIdGenerator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubUniqueIdGenerator.InitializeStub">
+            <summary>Initializes a new instance of type StubUniqueIdGenerator</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubUniqueIdGenerator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubUniqueIdGenerator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubUniqueIdGenerator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubUser">
+            <summary>Stub type of NosqlTransactionManager.User</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubUser.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubUser.InitializeStub">
+            <summary>Initializes a new instance of type StubUser</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubUser.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubUser.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubUser.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubUserService">
+            <summary>Stub type of NosqlTransactionManager.UserService</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubUserService.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubUserService.InitializeStub">
+            <summary>Initializes a new instance of type StubUserService</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubUserService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubUserService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubUserService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.Fakes.StubVexiereConfiguration">
+            <summary>Stub type of NosqlTransactionManager.VexiereConfiguration</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubVexiereConfiguration.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.Fakes.StubVexiereConfiguration.InitializeStub">
+            <summary>Initializes a new instance of type StubVexiereConfiguration</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubVexiereConfiguration.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubVexiereConfiguration.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.Fakes.StubVexiereConfiguration.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.ResourceManager.Fakes.StubIReadResource`1">
+            <summary>Stub type of NosqlTransactionManager.ResourceManager.IReadResource`1</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.ResourceManager.Fakes.StubIReadResource`1.#ctor">
+            <summary>Initializes a new instance of type StubIReadResource</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.ResourceManager.Fakes.StubIReadResource`1.GetByIdInt64">
+            <summary>Sets the stub of IReadResource`1.GetById(Int64 id)</summary>
+        </member>
+        <member name="F:NosqlTransactionManager.ResourceManager.Fakes.StubIReadResource`1.GetIdT0">
+            <summary>Sets the stub of IReadResource`1.GetId(!0 t)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.ResourceManager.Fakes.StubIReadResource`1.vtm::NosqlTransactionManager#ResourceManager#IReadResource{T}#GetById(System.Int64)">
+            <summary>Sets the stub of IReadResource`1.GetById(Int64 id)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.ResourceManager.Fakes.StubIReadResource`1.vtm::NosqlTransactionManager#ResourceManager#IReadResource{T}#GetId(`0)">
+            <summary>Sets the stub of IReadResource`1.GetId(!0 t)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager">
+            <summary>Shim type of NosqlTransactionManager.TransactionLog.TransactionLogManager</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.#ctor(NosqlTransactionManager.TransactionLog.TransactionLogManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.Bind(NosqlTransactionManager.TransactionLog.ITransactionLogManager)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.CreateTransactionLogOf1TransactionLogOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{NosqlTransactionManager.TransactionLog{``0}})">
+            <summary>Sets the shim of TransactionLogManager.CreateTransactionLog(TransactionLog`1&lt;!!0&gt; transactionLog)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.GetKeyOf1TransactionLogOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{NosqlTransactionManager.TransactionLog{``0},System.String})">
+            <summary>Sets the shim of TransactionLogManager.GetKey(TransactionLog`1&lt;!!0&gt; transactionLog)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.UpdateTransactionLogOf1TransactionLogOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{NosqlTransactionManager.TransactionLog{``0}})">
+            <summary>Sets the shim of TransactionLogManager.UpdateTransactionLog(TransactionLog`1&lt;!!0&gt; transactionLog)</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.Constructor">
+            <summary>Sets the shim of TransactionLogManager.TransactionLogManager()</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.StaticConstructor">
+            <summary>Sets the shim of TransactionLogManager.TransactionLogManager()</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.AllInstances.CreateTransactionLogOf1TransactionLogOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{NosqlTransactionManager.TransactionLog.TransactionLogManager,NosqlTransactionManager.TransactionLog{``0}})">
+            <summary>Sets the shim of TransactionLogManager.CreateTransactionLog(TransactionLog`1&lt;!!0&gt; transactionLog)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.ShimTransactionLogManager.AllInstances.UpdateTransactionLogOf1TransactionLogOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{NosqlTransactionManager.TransactionLog.TransactionLogManager,NosqlTransactionManager.TransactionLog{``0}})">
+            <summary>Sets the shim of TransactionLogManager.UpdateTransactionLog(TransactionLog`1&lt;!!0&gt; transactionLog)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.TransactionLog.Fakes.StubITransactionLogManager">
+            <summary>Stub type of NosqlTransactionManager.TransactionLog.ITransactionLogManager</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.StubITransactionLogManager.#ctor">
+            <summary>Initializes a new instance of type StubITransactionLogManager</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.StubITransactionLogManager.CreateTransactionLogOf1TransactionLogOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{NosqlTransactionManager.TransactionLog{``0}})">
+            <summary>Sets stubs of CreateTransactionLog(TransactionLog`1&lt;!!0&gt; transactionLog)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.StubITransactionLogManager.vtm::NosqlTransactionManager#TransactionLog#ITransactionLogManager#CreateTransactionLog``1(NosqlTransactionManager.TransactionLog{``0})">
+            <summary>Sets the stub of ITransactionLogManager.CreateTransactionLog(TransactionLog`1&lt;!!0&gt; transactionLog)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.StubITransactionLogManager.vtm::NosqlTransactionManager#TransactionLog#ITransactionLogManager#UpdateTransactionLog``1(NosqlTransactionManager.TransactionLog{``0})">
+            <summary>Sets the stub of ITransactionLogManager.UpdateTransactionLog(TransactionLog`1&lt;!!0&gt; transactionLog)</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.StubITransactionLogManager.UpdateTransactionLogOf1TransactionLogOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{NosqlTransactionManager.TransactionLog{``0}})">
+            <summary>Sets stubs of UpdateTransactionLog(TransactionLog`1&lt;!!0&gt; transactionLog)</summary>
+        </member>
+        <member name="T:NosqlTransactionManager.TransactionLog.Fakes.StubTransactionLogManager">
+            <summary>Stub type of NosqlTransactionManager.TransactionLog.TransactionLogManager</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.StubTransactionLogManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:NosqlTransactionManager.TransactionLog.Fakes.StubTransactionLogManager.InitializeStub">
+            <summary>Initializes a new instance of type StubTransactionLogManager</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.TransactionLog.Fakes.StubTransactionLogManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.TransactionLog.Fakes.StubTransactionLogManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:NosqlTransactionManager.TransactionLog.Fakes.StubTransactionLogManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
